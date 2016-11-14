@@ -14,11 +14,11 @@ public class MovingEnemies : MonoBehaviour {
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
     }
 
-    void OnTriggerEnter(Collider other)
+    /*void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Goat"))
         {
             other.gameObject.SetActive(false);
         }
-    }
+    }*/
 }
