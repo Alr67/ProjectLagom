@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Goat
   - Vandal
+  - Arrow
   layers:
   - Default
   - TransparentFX

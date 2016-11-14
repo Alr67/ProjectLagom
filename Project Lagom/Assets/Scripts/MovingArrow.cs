@@ -17,7 +17,7 @@ public class MovingArrow : MonoBehaviour {
         else if (!right && transform.eulerAngles.y < 60f) {
             right = true;
         }
-        if(!right) transform.Rotate(Vector3.forward, speed * Time.deltaTime);
-        else transform.Rotate(-Vector3.forward, speed * Time.deltaTime);
+        if(!right) transform.Rotate(Vector3.down, speed * Time.deltaTime);
+        else transform.Rotate(-Vector3.down, speed * Time.deltaTime);
     }
 }
