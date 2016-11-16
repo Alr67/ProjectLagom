@@ -3,22 +3,25 @@ using System.Collections;
 
 public class GameController : MonoBehaviour {
     public GameObject vandalPrefab;
+	public float waitTimer;
     public Vector3 rightSpawningVector;
     public Vector3 leftSpawningVector;
+	private int sideRandomizer;
+
     // Use this for initialization
     void Start () {
         StartCoroutine(spawnVandals());
     }
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 
     IEnumerator spawnVandals() {
         while (true) {
-            Instantiate(vandalPrefab, rightSpawningVector, Quaternion.identity);
-            yield return new WaitForSeconds(3.0f);
+			sideRandomizer = Random.Range (0, 2);
+			if (sideRandomizer == 0) {
+				Instantiate (vandalPrefab, leftSpawningVector, Quaternion.Euler (0, 180, 0));
+			} else {
+				Instantiate (vandalPrefab, rightSpawningVector, Quaternion.Euler (0, 0, 0));
+			}
+			yield return new WaitForSeconds(waitTimer);
         }
     }
     //test

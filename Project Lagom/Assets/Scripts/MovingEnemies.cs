@@ -6,19 +6,18 @@ public class MovingEnemies : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
 	}
 	
 	// Update is called once per frame
 	void Update () {
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
     }
+	void OnTriggerEnter(Collider other) {
 
-    /*void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.CompareTag("Goat"))
-        {
-            other.gameObject.SetActive(false);
-        }
-    }*/
+		if (other.gameObject.CompareTag("Snowball")) {
+			Destroy(other.gameObject);
+			Destroy (gameObject);
+
+		}
+	}
 }
