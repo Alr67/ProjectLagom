@@ -2,10 +2,11 @@
 using System.Collections;
 
 public class MovingEnemies : MonoBehaviour {
-    public float speed = 1f;
+    private float speed;
 
 	// Use this for initialization
 	void Start () {
+        speed = Random.Range(1f,6f);
 	}
 	
 	// Update is called once per frame
@@ -17,7 +18,7 @@ public class MovingEnemies : MonoBehaviour {
 		if (other.gameObject.CompareTag("Snowball")) {
 			Destroy(other.gameObject);
 			Destroy (gameObject);
-
-		}
+            GameObject.Find("Goat").GetComponent<GoatScript>().increaseKills();
+        }
 	}
 }

@@ -11,10 +11,10 @@ public class MovingArrow : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (right && transform.eulerAngles.y > 120f) {
+        if (right && transform.eulerAngles.y > 140f) {
             right = false;
         }
-        else if (!right && transform.eulerAngles.y < 60f) {
+        else if (!right && transform.eulerAngles.y < 40f) {
             right = true;
         }
         if(!right) transform.Rotate(Vector3.down, speed * Time.deltaTime);

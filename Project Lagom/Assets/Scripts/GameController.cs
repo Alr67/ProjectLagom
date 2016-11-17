@@ -14,7 +14,7 @@ public class GameController : MonoBehaviour {
     }
 
     IEnumerator spawnVandals() {
-        while (true) {
+        while (true && GameObject.Find("Goat").GetComponent<GoatScript>().lifePointsChecker() && GameObject.Find("Goat").GetComponent<GoatScript>().keepSpawning()) {
 			sideRandomizer = Random.Range (0, 2);
 			if (sideRandomizer == 0) {
 				Instantiate (vandalPrefab, leftSpawningVector, Quaternion.Euler (0, 180, 0));
