@@ -601,8 +601,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Don't let troublemakers burn it and ruin the Christmas (Jul in Swedish)
-    spirit!
+  m_Text: "Protect the G\xE4vlebock for Lagom time and be a Lagom responsible Swede!"
 --- !u!222 &1344326546
 CanvasRenderer:
   m_ObjectHideFlags: 0

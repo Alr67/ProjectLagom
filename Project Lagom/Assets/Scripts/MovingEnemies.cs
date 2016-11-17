@@ -11,14 +11,16 @@ public class MovingEnemies : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        transform.Translate(Vector3.forward * Time.deltaTime * speed);
+        if (GameObject.Find("Goat").GetComponent<GoatScript>().lifePointsChecker() && GameObject.Find("Goat").GetComponent<GoatScript>().keepSpawning())
+        {
+            transform.Translate(Vector3.forward * Time.deltaTime * speed);
+        }
     }
 	void OnTriggerEnter(Collider other) {
 
 		if (other.gameObject.CompareTag("Snowball")) {
 			Destroy(other.gameObject);
 			Destroy (gameObject);
-            GameObject.Find("Goat").GetComponent<GoatScript>().increaseKills();
         }
 	}
 }

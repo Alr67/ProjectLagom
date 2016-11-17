@@ -16,31 +16,31 @@ Platform assembly: C:\Users\rafax\Documents\ProjectLagom\Project Lagom\DemoBuild
 Loading C:\Users\rafax\Documents\ProjectLagom\Project Lagom\DemoBuild_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\rafax\Documents\ProjectLagom\Project Lagom\DemoBuild_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\Users\rafax\Documents\ProjectLagom\Project Lagom\DemoBuild_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.192 seconds
+- Completed reload, in  0.453 seconds
 Platform assembly: C:\Users\rafax\Documents\ProjectLagom\Project Lagom\DemoBuild_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\rafax\Documents\ProjectLagom\Project Lagom\DemoBuild_Data\Managed\System.dll (this message is harmless)
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.982505 ms
+UnloadTime: 2.171064 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 3244 -> priority: 1 
+  Thread -> id: 1fc0 -> priority: 1 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 6.092008 ms
+UnloadTime: 13.119547 ms
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 214.
-Total: 0.268817 ms (FindLiveObjects: 0.018157 ms CreateObjectMapping: 0.009473 ms MarkObjects: 0.186711 ms  DeleteObjects: 0.031184 ms)
+Total: 0.500529 ms (FindLiveObjects: 0.037500 ms CreateObjectMapping: 0.026842 ms MarkObjects: 0.360396 ms  DeleteObjects: 0.060000 ms)
 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.609871 ms
+UnloadTime: 1.196848 ms
 
 Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 275.
-Total: 0.296054 ms (FindLiveObjects: 0.037105 ms CreateObjectMapping: 0.025263 ms MarkObjects: 0.223027 ms  DeleteObjects: 0.009473 ms)
+Total: 0.468160 ms (FindLiveObjects: 0.034342 ms CreateObjectMapping: 0.022894 ms MarkObjects: 0.387633 ms  DeleteObjects: 0.022105 ms)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at GameController+<spawnVandals>c__Iterator0.MoveNext () [0x00000] in <filename unknown>:0 
-  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.519350 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 276.
+Total: 0.657240 ms (FindLiveObjects: 0.050921 ms CreateObjectMapping: 0.039473 ms MarkObjects: 0.517897 ms  DeleteObjects: 0.011842 ms)
 

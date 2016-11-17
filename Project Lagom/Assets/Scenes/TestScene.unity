@@ -458,7 +458,7 @@ GameObject:
   - 222: {fileID: 830938961}
   - 114: {fileID: 830938960}
   m_Layer: 5
-  m_Name: txtKilledEnemies
+  m_Name: txtTime
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -514,7 +514,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Avoided trouble: 0'
+  m_Text: 
 --- !u!222 &830938961
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -553,8 +553,8 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 16, y: -27.5}
-  m_SizeDelta: {x: 964, y: 327}
+  m_AnchoredPosition: {x: 22, y: -82}
+  m_SizeDelta: {x: 1111, y: 436}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &852405871
 MonoBehaviour:
@@ -956,9 +956,9 @@ MonoBehaviour:
   lifePoints: 4
   lifeText: {fileID: 1056452237}
   winLostText: {fileID: 852405871}
-  killedEnemies: 0
   killedEnemiesText: {fileID: 830938960}
   restartButton: {fileID: 551482478}
+  timeLeft: 0
 --- !u!1 &1430313662
 GameObject:
   m_ObjectHideFlags: 0
