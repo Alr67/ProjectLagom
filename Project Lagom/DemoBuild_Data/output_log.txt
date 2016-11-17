@@ -16,9 +16,31 @@ Platform assembly: C:\Users\rafax\Documents\ProjectLagom\Project Lagom\DemoBuild
 Loading C:\Users\rafax\Documents\ProjectLagom\Project Lagom\DemoBuild_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\rafax\Documents\ProjectLagom\Project Lagom\DemoBuild_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\Users\rafax\Documents\ProjectLagom\Project Lagom\DemoBuild_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.151 seconds
+- Completed reload, in  0.192 seconds
 Platform assembly: C:\Users\rafax\Documents\ProjectLagom\Project Lagom\DemoBuild_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\rafax\Documents\ProjectLagom\Project Lagom\DemoBuild_Data\Managed\System.dll (this message is harmless)
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.982505 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 3244 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.092008 ms
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 214.
+Total: 0.268817 ms (FindLiveObjects: 0.018157 ms CreateObjectMapping: 0.009473 ms MarkObjects: 0.186711 ms  DeleteObjects: 0.031184 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.609871 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 275.
+Total: 0.296054 ms (FindLiveObjects: 0.037105 ms CreateObjectMapping: 0.025263 ms MarkObjects: 0.223027 ms  DeleteObjects: 0.009473 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameController+<spawnVandals>c__Iterator0.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
