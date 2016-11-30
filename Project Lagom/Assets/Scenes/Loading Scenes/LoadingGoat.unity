@@ -1062,7 +1062,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: But don't let it burn!
+  m_Text: But don't let it burn!  ...yet
 --- !u!222 &1947556438
 CanvasRenderer:
   m_ObjectHideFlags: 0

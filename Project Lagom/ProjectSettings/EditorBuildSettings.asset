@@ -8,6 +8,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
   - enabled: 1
+    path: Assets/Scenes/SelectionMenu.unity
+  - enabled: 1
     path: Assets/Scenes/Loading Scenes/LoadingGoat.unity
   - enabled: 1
     path: Assets/Scenes/TestScene.unity

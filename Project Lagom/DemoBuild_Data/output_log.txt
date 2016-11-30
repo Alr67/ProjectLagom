@@ -16,31 +16,19 @@ Platform assembly: C:\Users\rafax\Documents\ProjectLagom\Project Lagom\DemoBuild
 Loading C:\Users\rafax\Documents\ProjectLagom\Project Lagom\DemoBuild_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\rafax\Documents\ProjectLagom\Project Lagom\DemoBuild_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\Users\rafax\Documents\ProjectLagom\Project Lagom\DemoBuild_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.453 seconds
+- Completed reload, in  0.222 seconds
 Platform assembly: C:\Users\rafax\Documents\ProjectLagom\Project Lagom\DemoBuild_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\rafax\Documents\ProjectLagom\Project Lagom\DemoBuild_Data\Managed\System.dll (this message is harmless)
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 2.171064 ms
+UnloadTime: 0.776451 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 1fc0 -> priority: 1 
+  Thread -> id: 2980 -> priority: 1 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 13.119547 ms
+UnloadTime: 7.419910 ms
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 214.
-Total: 0.500529 ms (FindLiveObjects: 0.037500 ms CreateObjectMapping: 0.026842 ms MarkObjects: 0.360396 ms  DeleteObjects: 0.060000 ms)
-
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.196848 ms
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 275.
-Total: 0.468160 ms (FindLiveObjects: 0.034342 ms CreateObjectMapping: 0.022894 ms MarkObjects: 0.387633 ms  DeleteObjects: 0.022105 ms)
-
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.519350 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 276.
-Total: 0.657240 ms (FindLiveObjects: 0.050921 ms CreateObjectMapping: 0.039473 ms MarkObjects: 0.517897 ms  DeleteObjects: 0.011842 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2145.
+Total: 1.121453 ms (FindLiveObjects: 0.165395 ms CreateObjectMapping: 0.054079 ms MarkObjects: 0.403423 ms  DeleteObjects: 0.497765 ms)
 

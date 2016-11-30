@@ -6,7 +6,7 @@ public class MovingEnemies : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        speed = Random.Range(1.8f,6.5f);
+        speed = Random.Range(1.8f,5.1f);
 	}
 	
 	// Update is called once per frame
