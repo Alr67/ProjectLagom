@@ -7,8 +7,8 @@ The users can not win or lose, but they have to get their scores the closest to 
 
 Screenshots from the game:
 
-[Imgur](https://i.imgur.com/lFk13FR.png)
-[Imgur](https://i.imgur.com/vkd9jY5.png)
-[Imgur](https://i.imgur.com/pO15wUs.png)
-[Imgur](https://i.imgur.com/D46W04X.png)
-[Imgur](https://i.imgur.com/xTtgBnr.png)
+![Imgur](https://i.imgur.com/lFk13FR.png)
+![Imgur](https://i.imgur.com/vkd9jY5.png)
+![Imgur](https://i.imgur.com/pO15wUs.png)
+![Imgur](https://i.imgur.com/D46W04X.png)
+![Imgur](https://i.imgur.com/xTtgBnr.png)
